@@ -31,7 +31,7 @@ router.post("/api/burgers", async (req, res) => {
     }
 });
 
-// Pit request for changing the devoured property
+// Put request for changing the devoured property
 router.put("/api/burgers/:id", async (req, res) => {
     const condition = `id = ${req.params.id}`;
     
