@@ -1,9 +1,4 @@
-const orm = require("../config/orm.js");
+const { selectAll, insertOne, updateOne } = require("../config/orm");
 
-// const burger = {
-//     all: () => orm.all("burgers"),
-//     create: (cols, vals) => orm.create("burgers", cols, vals),
-//     update: (objColVals, condition) => orm.update("burgers", objColVals, condition)
-// };
 
-module.exports = burger;
+module.exports = { createBurgers, insertBurger };

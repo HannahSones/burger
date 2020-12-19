@@ -11,11 +11,19 @@ if (process.env.JAWSDB_URL) {
 } else {
     connection = mysql.createConnection({
         host: "localhost",
-        port: 8080,
+        port: 3000,
         user: "root",
         password: process.env.DB_PASS,
         database: "burgers_db"
     });
 }
+
+connection.connect(function(err) {
+    if (err) {
+      console.error('error connecting');
+      return;
+    }
+    console.log('connected');
+  });
 
 module.exports = connection;
