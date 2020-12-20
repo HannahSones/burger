@@ -50,7 +50,7 @@ In the text area, input the name of the burger you want to eat. This will be add
 
 ------------------
 ## Deployed link   
-Or you can view the live deployment of the application on [Heroku]().
+Or you can view the live deployment of the application on [Heroku](https://dry-inlet-47678.herokuapp.com/).
 
 -------------
 ## Credit
