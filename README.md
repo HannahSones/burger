@@ -26,7 +26,7 @@ I found this project quite difficult in terms of the size and ensuring separatio
 
 ## Functionality  
 The following screen record demonstrates the burger apps functionality.   
-![Burger app functionality]()   
+![Burger app functionality](https://github.com/HannahSones/burger/blob/main/public/assets/images/Eat%20the%20burger.gif)   
 
 In the text area, input the name of the burger you want to eat. This will be added to the not devoured section, ready to eat. You can then choose to devour the burger (which will move it into the devoured box), or delete the burger. When a burger has been devoured, you also have the option to reorder the burger.
 
